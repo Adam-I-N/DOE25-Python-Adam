@@ -18,7 +18,7 @@ class AlarmManager:
     def add_alarm(self, alarm_type, treshold):
         """
         Lägger till ett nytt larm i listan.
-        alarm_type: "CPU", _"Memory" eller "Disk"
+        alarm_type: "CPU", "Memory" eller "Disk"
         treshold: siffra mellan 0 och 100
         """
 
